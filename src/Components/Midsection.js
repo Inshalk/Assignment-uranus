@@ -89,8 +89,7 @@ function Midsection() {
           </CardCenterText>
         </CardCenter>
       </AlignCenter>
-    </Container>
-   
+    </Container> 
     </>
   );
 }
