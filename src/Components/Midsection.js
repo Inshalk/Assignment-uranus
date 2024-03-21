@@ -90,23 +90,7 @@ function Midsection() {
         </CardCenter>
       </AlignCenter>
     </Container>
-    <Container>
-      <CardCenterVideo>
-        <ImgBoxCenterVideo>
-        <TitleVideo><p>Watch videos:</p></TitleVideo>
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/gI7qfHuLQ6Q?si=G54mj-dtalCn0M2l"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-        </ImgBoxCenterVideo>
-              </CardCenterVideo>
-    </Container>
-    
+   
     </>
   );
 }
@@ -218,27 +202,7 @@ img{
   height:80vh;
 }
 `;
-const CardCenterVideo = styled(CardCenter)`
-  height: auto; 
-`;
 
-const ImgBoxCenterVideo = styled(ImgBoxCenter)`
 
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-`;
-const TitleVideo=styled.p`
-text-align: center;
-  color: white;
-`
+
 export default Midsection;
